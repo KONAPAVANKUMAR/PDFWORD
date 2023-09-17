@@ -1,0 +1,25 @@
+{% extends 'base.html' %}
+{% load static %}
+{% block content %}
+
+<link rel="stylesheet" href="{% static 'css/pdftowordapp/homepage.css' %}">
+<script crossorigin src="https://unpkg.com/react@18/umd/react.development.js"></script>
+<script crossorigin src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"></script>
+<script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+
+
+<nav class="navbar navbar-light bg-light">
+    <div class="container">
+      <a class="navbar-brand">
+        <span style="font-family: SundayGrapes;" class="text-danger">PDF<span class="text-info">Word</span></span>
+      </a>
+    </div>
+</nav>
+
+<!-- react starts here -->
+<div id="root"></div>
+
+<script src="{% static 'js/pdftowordapp/homepage.js' %}" type="text/babel"></script>
+
+
+{% endblock %}

@@ -1,0 +1,16 @@
+
+
+@font-face {
+    font-family: 'SundayGrapes';
+    src: url('../../fonts/SundayGrapes.ttf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+@font-face {
+    font-family: 'Roboto-Regular';
+    src: url('../../fonts/Roboto-Regular.ttf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
